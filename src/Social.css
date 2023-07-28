@@ -1,0 +1,56 @@
+.title-social{
+    display: flex;
+    justify-content: left;
+    align-items: center
+}
+
+h2{
+    color:white;
+    margin-left: 10px;
+}
+
+.div-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    
+}
+
+.social-block{
+    width: 300px;
+    height: 450px;
+    margin-left: 40px;
+}
+
+#Facebook{
+    margin: 0px;
+}
+.text-social{
+    margin-left: 0px;
+    color: #E0D0D0;
+}
+
+.Minecraft-version{
+    margin-top: 26px;
+}
+
+.linkVersion{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.description-version{
+    margin: 0px;
+    font-size: 10px;
+    color: #b1a5a5;
+}
+
+.pDescription{
+    margin-left: 0px;
+    color: #E0D0D0;
+}
+
+.description-jeb{
+    margin-top: 26px;
+}
