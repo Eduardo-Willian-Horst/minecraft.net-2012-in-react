@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Minecraft.net (2012) Replica - React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Minecraft.net](https://web.archive.org/web/20120705125654im_/http://www.minecraft.net/images/logo.png)
 
-## Available Scripts
+> Uma réplica do site Minecraft.net em sua versão de 2012, desenvolvida com React e utilizando dados do Wayback Machine para recriar fielmente a aparência e funcionalidades da época.
 
-In the project directory, you can run:
+## Visão Geral
 
-### `npm start`
+Este projeto é uma recriação do site Minecraft.net como ele era em 2012, usando a tecnologia React para desenvolver a interface e o design. Foi possível reconstruir a aparência e as funcionalidades originais graças à valiosa ajuda do Wayback Machine, que arquivou cópias do site em diferentes momentos do passado.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Como Executar o Projeto Localmente
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para executar este projeto em seu ambiente local, siga os passos abaixo:
 
-### `npm test`
+### Pré-requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js e npm instalados em seu sistema.
 
-### `npm run build`
+### Passos para Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone este repositório em sua máquina local usando o seguinte comando:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+      `git clone https://github.com/Eduardo-Willian-Horst/minecraft.net-2012-in-react.git`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navegue até a pasta do projeto:
 
-### `npm run eject`
+      `cd minecraft.net-2012-in-react`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Instale as dependências necessárias com o seguinte comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+      `npm install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Inicie o servidor de desenvolvimento:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+      `npm start`
 
-## Learn More
+5. O projeto estará disponível em seu navegador no endereço [http://localhost:3000](http://localhost:3000).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribuições
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contribuições são bem-vindas! Se você encontrar algum problema ou quiser adicionar novas funcionalidades à réplica, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-### Code Splitting
+## Agradecimentos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Wayback Machine por disponibilizar o histórico do site Minecraft.net, permitindo esta recriação nostálgica.
+- Comunidade de desenvolvedores React por fornecer uma ótima biblioteca para a criação de interfaces interativas e dinâmicas.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Aviso**: Este projeto é apenas uma recriação com fins educacionais e nostálgicos. Não possui nenhuma afiliação com a Mojang ou Minecraft oficial. Todos os direitos autorais e marcas registradas pertencem a seus respectivos proprietários.
